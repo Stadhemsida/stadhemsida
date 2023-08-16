@@ -1,0 +1,1721 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/classic.css" />
+  </head>
+  <body>
+    <main class="cypress-wrapper" id="cypress-wrapper">
+      <section id="cypress-menu-sticky" class="cypress-menu bottom">
+        <div class="top">
+          <div class="grid-container">
+            <a
+              id="p-Privatbtn"
+              class="active menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-item current_page_item menu-item-36"
+              href="/index.html"
+              >Privat</a
+            >
+            <a
+              id="p-Företagbtn"
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37"
+              href="./foretag.html"
+              >Företag</a
+            >
+          </div>
+        </div>
+        <div class="grid-container">
+          <div class="grid-x">
+            <div class="cell large-4">
+              <div class="navigation-bar grid-container">
+                <a class="logo" href="./index.html"
+                  ><img src="./assets/img/logo-dark.png" alt="logo"
+                /></a>
+                <div class="citys-phones">
+                  <div class="sa-city">
+                    <button>Välj stad</button>
+                    <span class="line"></span>
+                    <div class="city-number">
+                      <a
+                        href="tel:010- 000 00 00"
+                        id="cityphone-010-3303095"
+                        class="cityphone blue-link"
+                        >010- 000 00 00</a
+                      >
+                    </div>
+                  </div>
+                  <ul class="city-list">
+                    <li class="city">
+                      <a
+                        href="/uppsala/"
+                        value="Uppsala"
+                        city="uppsala"
+                        class="toggle_city city-name"
+                      >
+                        Uppsala </a
+                      ><span value="010- 000 00 00" class="city-phone"></span>
+                    </li>
+                    <li class="city">
+                      <a
+                        href="/stockholm/"
+                        value="Stockholm"
+                        city="stockholm"
+                        class="toggle_city city-name"
+                      >
+                        Stockholm </a
+                      ><span value="010- 000 00 00" class="city-phone"></span>
+                    </li>
+                    <li class="city">
+                      <a
+                        href="/goteborg/"
+                        value="Göteborg"
+                        city="goteborg"
+                        class="toggle_city city-name"
+                      >
+                        Göteborg </a
+                      ><span value="010- 000 00 00" class="city-phone"></span>
+                    </li>
+                    <li class="city">
+                      <a
+                        href="/alingsas/"
+                        value="Alingsås"
+                        city="alingsas"
+                        class="toggle_city city-name"
+                      >
+                        Alingsås </a
+                      ><span value="0322-222 001" class="city-phone"></span>
+                    </li>
+                    <li class="city">
+                      <a
+                        href="/boras/"
+                        value="Borås"
+                        city="boras"
+                        class="toggle_city city-name"
+                      >
+                        Borås </a
+                      ><span value="033-262100" class="city-phone"></span>
+                    </li>
+                    <li class="city">
+                      <a
+                        href="/kungsbacka/"
+                        value="Kungsbacka"
+                        city="kungsbacka"
+                        class="toggle_city city-name"
+                      >
+                        Kungsbacka </a
+                      ><span value="0300-74900" class="city-phone"></span>
+                    </li>
+                    <li class="city">
+                      <a
+                        href="/kungalv/"
+                        value="Kungälv"
+                        city="kungalv"
+                        class="toggle_city city-name"
+                      >
+                        Kungälv </a
+                      ><span value="0303-233550" class="city-phone"></span>
+                    </li>
+                    <li class="city">
+                      <a
+                        href="/lerum/"
+                        value="Lerum"
+                        city="lerum"
+                        class="toggle_city city-name"
+                      >
+                        Lerum </a
+                      ><span value="0302-43370" class="city-phone"></span>
+                    </li>
+                    <li class="city">
+                      <a
+                        href="/trollhattan/"
+                        value="Trollhättan"
+                        city="trollhattan"
+                        class="toggle_city city-name"
+                      >
+                        Trollhättan </a
+                      ><span value="0520-38 888" class="city-phone"></span>
+                    </li>
+                    <li class="city">
+                      <a
+                        href="/uddevalla/"
+                        value="Uddevalla"
+                        city="uddevalla"
+                        class="toggle_city city-name"
+                      >
+                        Uddevalla </a
+                      ><span value="0522-86 000" class="city-phone"></span>
+                    </li>
+                  </ul>
+                  <form id="changeCityForm" action="/" method="post">
+                    <input
+                      type="hidden"
+                      class="switch_city"
+                      name="switch_city"
+                      value=""
+                    />
+                  </form>
+                </div>
+
+                <button
+                  class="menu-trigger hamburger hamburger--elastic"
+                  type="button"
+                >
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+                </button>
+              </div>
+            </div>
+
+            <div class="cell large-8">
+              <div class="menu-wrapper">
+                <nav class="main-menu">
+                  <div class="menu-links">
+                    <li>
+                      <ul
+                        class="parent-container menu-item-container vertical menu accordion-menu"
+                        data-accordion-menu="if3myx-accordion-menu"
+                        data-submenu-toggle="false"
+                        role="menubar"
+                        aria-multiselectable="true"
+                      >
+                        <li
+                          role="none"
+                          class="is-accordion-submenu-parent"
+                          aria-controls="utswuq-acc-menu"
+                          aria-expanded="false"
+                          id="6mgoh2-acc-menu-link"
+                        >
+                          <a
+                            id=""
+                            class="menu-item service-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-163 menu-item-has-children standard"
+                            href="#"
+                            role="menuitem"
+                            data-tjänster-drop-down
+                          >
+                            <span>Tjänster</span>
+                          </a>
+
+                          <ul
+                            class="child-container menu-item-container submenu is-accordion-submenu"
+                            style="display: none"
+                            data-submenu-tjänster=""
+                            role="group"
+                            aria-labelledby="6mgoh2-acc-menu-link"
+                            aria-hidden="true"
+                            id="utswuq-acc-menu"
+                          >
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-165 child standard"
+                                href="./tjanster-hemstadning.html"
+                                role="menuitem"
+                              >
+                                <span>Hemstädning</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-838 child standard"
+                                href="./tjanster-flyttstadning.html"
+                                role="menuitem"
+                              >
+                                <span>Flyttstädning</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-927 child standard"
+                                href="./tjanster-storstadning.html"
+                                role="menuitem"
+                              >
+                                <span>Storstädning</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-172 child standard"
+                                href="./tjanster-fonsterputs.html"
+                                role="menuitem"
+                              >
+                                <span>Fönsterputs</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-1534 child standard"
+                                href="./presentkort.html"
+                                role="menuitem"
+                              >
+                                <span>Presentkort</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <ul
+                        class="parent-container menu-item-container vertical menu accordion-menu"
+                        data-accordion-menu="0dlj1n-accordion-menu"
+                        data-submenu-toggle="false"
+                        role="menubar"
+                        aria-multiselectable="true"
+                      >
+                        <li
+                          role="none"
+                          class="is-accordion-submenu-parent"
+                          aria-controls="9dwb0f-acc-menu"
+                          aria-expanded="false"
+                          id="76qssl-acc-menu-link"
+                        >
+                          <a
+                            id=""
+                            class="menu-item about-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-40 menu-item-has-children standard"
+                            href="#"
+                            role="menuitem"
+                            data-om-städhemsida-drop-down
+                          >
+                            <span>Om städhemsida </span>
+                          </a>
+
+                          <ul
+                            class="child-container menu-item-container submenu is-accordion-submenu"
+                            style="display: none"
+                            data-submenu-om-städhemsida
+                            role="group"
+                            aria-labelledby="76qssl-acc-menu-link"
+                            aria-hidden="true"
+                            id="9dwb0f-acc-menu"
+                          >
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-403 child standard"
+                                href="./om-städhemsida.html"
+                                role="menuitem"
+                              >
+                                <span>Om städhemsida </span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-875 child standard"
+                                href="./malsattning.html"
+                                role="menuitem"
+                              >
+                                <span>Målsättning</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-876 child standard"
+                                href="./varderingar.html"
+                                role="menuitem"
+                              >
+                                <span>Värderingar</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-28411 child standard"
+                                href="./leverantorer.html"
+                                role="menuitem"
+                              >
+                                <span>Leverantörer</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-878 child standard"
+                                href="./miljo-stadforetag.html"
+                                role="menuitem"
+                              >
+                                <span>Miljö</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-31346 child standard"
+                                href="./nyheter.html"
+                                role="menuitem"
+                              >
+                                <span>Information från städhemsida </span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-877 child standard"
+                                href="./kvalitet-stadforetag.html"
+                                role="menuitem"
+                              >
+                                <span>Kvalitet</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-28410 child standard"
+                                href="./schyssta-arbetsvillkor.html"
+                                role="menuitem"
+                              >
+                                <span>Schyssta arbetsvillkor</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-880 child standard"
+                                href="./jobba-hos-oss.html"
+                                role="menuitem"
+                              >
+                                <span>Jobba hos oss</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-615 child standard"
+                                href="./integritetspolicy-gdpr.html"
+                                role="menuitem"
+                              >
+                                <span>Integritetspolicy</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-879 child standard"
+                                href="./covid-19.html"
+                                role="menuitem"
+                              >
+                                <span>Covid-19</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <ul
+                        class="parent-container menu-item-container vertical menu accordion-menu"
+                        data-accordion-menu="9rewp0-accordion-menu"
+                        data-submenu-toggle="false"
+                        role="menubar"
+                        aria-multiselectable="true"
+                      >
+                        <li
+                          role="none"
+                          class="is-accordion-submenu-parent"
+                          aria-controls="4nor4z-acc-menu"
+                          aria-expanded="false"
+                          id="l7hio9-acc-menu-link"
+                        >
+                          <a
+                            id=""
+                            class="menu-item client-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-138 menu-item-has-children standard"
+                            href="#"
+                            role="menuitem"
+                            data-att-vara-kund-drop-down
+                          >
+                            <span>Att vara kund</span>
+                          </a>
+
+                          <ul
+                            class="child-container menu-item-container submenu is-accordion-submenu"
+                            style="display: none"
+                            data-submenu-att-vara-kund=""
+                            role="group"
+                            aria-labelledby="l7hio9-acc-menu-link"
+                            aria-hidden="true"
+                            id="4nor4z-acc-menu"
+                          >
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-989 child standard"
+                                href="./presentkort.html"
+                                role="menuitem"
+                              >
+                                <span>Presentkort</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-256 child standard"
+                                href="./att-vara-kund.html"
+                                role="menuitem"
+                              >
+                                <span>Att vara kund</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-175 child standard"
+                                href="./priser-hemstadning.html"
+                                role="menuitem"
+                              >
+                                <span>Priser – Hemstädning</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-1612 child standard"
+                                href="./priser-flyttstadning.html"
+                                role="menuitem"
+                              >
+                                <span>Priser – Flyttstädning</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-1064 child standard"
+                                href="./priser-storstadning.html"
+                                role="menuitem"
+                              >
+                                <span>Priser – Storstädning</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-266 child standard"
+                                href="./priser-fonsterputs.html"
+                                role="menuitem"
+                              >
+                                <span>Priser – Fönsterputs</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-181 child standard"
+                                href="./rutavdrag.html"
+                                role="menuitem"
+                              >
+                                <span>Rutavdrag</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-186 child standard"
+                                href="./stadtips.html"
+                                role="menuitem"
+                              >
+                                <span>Städtips</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-401 child standard"
+                                href="./vanliga-fragor-och-svar.html"
+                                role="menuitem"
+                              >
+                                <span>Vanliga frågor och svar</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-400 child standard"
+                                href="./nojd-kundgaranti.html"
+                                role="menuitem"
+                              >
+                                <span>Nöjd kundgaranti</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a
+                        id=""
+                        class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-164 standard"
+                        href="./kontakt.html"
+                      >
+                        <span>Kontakt</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        id="flyttstadbtn"
+                        class="menu-item btn green offer menu-item menu-item-type-post_type menu-item-object-page menu-item-255 standard"
+                        href="./offert-pa-flyttstad.html"
+                      >
+                        <span>Offert på flyttstäd</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        id="hemstadbtn"
+                        class="menu-item btn blue offer menu-item menu-item-type-post_type menu-item-object-page menu-item-286 standard"
+                        href="./offert-pa-hemstad.html"
+                      >
+                        <span>Offert på hemstäd</span>
+                      </a>
+                    </li>
+
+                    <div class="citys-phones-small">
+                      <button class="opt-city">Välj stad</button>
+                      <ul class="city-list">
+                        <li class="city">
+                          <a
+                            href="/uppsala/"
+                            value="Uppsala"
+                            city="uppsala"
+                            class="toggle_city city-name"
+                          >
+                            Uppsala </a
+                          ><span
+                            value="010- 000 00 00"
+                            class="city-phone"
+                          ></span>
+                        </li>
+                        <li class="city">
+                          <a
+                            href="/stockholm/"
+                            value="Stockholm"
+                            city="stockholm"
+                            class="toggle_city city-name"
+                          >
+                            Stockholm </a
+                          ><span
+                            value="010- 000 00 00"
+                            class="city-phone"
+                          ></span>
+                        </li>
+                        <li class="city">
+                          <a
+                            href="/goteborg/"
+                            value="Göteborg"
+                            city="goteborg"
+                            class="toggle_city city-name"
+                          >
+                            Göteborg </a
+                          ><span
+                            value="010- 000 00 00"
+                            class="city-phone"
+                          ></span>
+                        </li>
+                        <li class="city">
+                          <a
+                            href="/alingsas/"
+                            value="Alingsås"
+                            city="alingsas"
+                            class="toggle_city city-name"
+                          >
+                            Alingsås </a
+                          ><span value="0322-222 001" class="city-phone"></span>
+                        </li>
+                        <li class="city">
+                          <a
+                            href="/boras/"
+                            value="Borås"
+                            city="boras"
+                            class="toggle_city city-name"
+                          >
+                            Borås </a
+                          ><span value="033-262100" class="city-phone"></span>
+                        </li>
+                        <li class="city">
+                          <a
+                            href="/kungsbacka/"
+                            value="Kungsbacka"
+                            city="kungsbacka"
+                            class="toggle_city city-name"
+                          >
+                            Kungsbacka </a
+                          ><span value="0300-74900" class="city-phone"></span>
+                        </li>
+                        <li class="city">
+                          <a
+                            href="/kungalv/"
+                            value="Kungälv"
+                            city="kungalv"
+                            class="toggle_city city-name"
+                          >
+                            Kungälv </a
+                          ><span value="0303-233550" class="city-phone"></span>
+                        </li>
+                        <li class="city">
+                          <a
+                            href="/lerum/"
+                            value="Lerum"
+                            city="lerum"
+                            class="toggle_city city-name"
+                          >
+                            Lerum </a
+                          ><span value="0302-43370" class="city-phone"></span>
+                        </li>
+                        <li class="city">
+                          <a
+                            href="/trollhattan/"
+                            value="Trollhättan"
+                            city="trollhattan"
+                            class="toggle_city city-name"
+                          >
+                            Trollhättan </a
+                          ><span value="0520-38 888" class="city-phone"></span>
+                        </li>
+                        <li class="city">
+                          <a
+                            href="/uddevalla/"
+                            value="Uddevalla"
+                            city="uddevalla"
+                            class="toggle_city city-name"
+                          >
+                            Uddevalla </a
+                          ><span value="0522-86 000" class="city-phone"></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+              <div class="mobile-menu-btns">
+                <div class="mmb-buttons">
+                  <a
+                    class="btn blue menu-item menu-item-type-custom menu-item-object-custom menu-item-type-post_type menu-item-object-page menu-item-1041"
+                    href="./main.html"
+                    >Offert på hemstäd</a
+                  >
+                  <a
+                    class="btn green menu-item menu-item-type-post_type menu-item-object-page menu-item-254"
+                    href="./offert-pa-flyttstad.html"
+                    >Offert på flyttstäd</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="cypress-content mt-60">
+        <section class="cypress-heroblock">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center">
+              <span class="background lightblue"></span>
+
+              <div class="breadcrumb-wrap show-for-xxxlarge">
+                <div class="grid-container">
+                  <nav id="breadcrumbs" class="breadcrumbs">
+                    <span
+                      ><span
+                        ><a href="#">Hem</a> /
+                        <span
+                          ><a href="#">Tjänster</a>
+                          /
+                          <span class="breadcrumb_last" aria-current="page"
+                            >Lokalvård</span
+                          ></span
+                        ></span
+                      ></span
+                    >
+                  </nav>
+                </div>
+              </div>
+
+              <div class="caption cell large-10 xlarge-6">
+                <div class="inner">
+                  <p class="big">Vi gör era lokaler rena och fina!</p>
+                  <p>
+                    Med städhemsida får din verksamhet alltid prisvärd,
+                    kvalitetssäkrad lokalvård och personlig service. Kontakta
+                    oss för en kostnadsfri offert och svar på dina frågor.
+                  </p>
+                  <p><span style="font-size: 1.0625rem"></span></p>
+                  <form class="cypress-offerform" method="post">
+                    <div class="form-field-wrap">
+                      <div class="form-field">
+                        <input
+                          type="text"
+                          name="Företag_name"
+                          placeholder="Företagsnamn"
+                        />
+                      </div>
+                      <div class="form-field noline">
+                        <input
+                          name="person_name"
+                          type="text"
+                          placeholder="Namn"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-submit">
+                      <a
+                        href="./boka-mote.html"
+                        class="blue submit-button btn offer-btn boka_mote"
+                      >
+                        Boka möte
+                      </a>
+                    </div>
+                  </form>
+                  <p></p>
+                </div>
+
+                <ul class="usps">
+                  <li>
+                    <span class="icon-icon-check-filled"></span
+                    ><span class="usp-text">Kvalitetssäkrad städning</span>
+                  </li>
+                  <li>
+                    <span class="icon-icon-check-filled"></span
+                    ><span class="usp-text">Egen kontaktperson </span>
+                  </li>
+                  <li>
+                    <span class="icon-icon-check-filled"></span
+                    ><span class="usp-text">Flexibla städtider</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="media cell large-10 xlarge-6">
+                <div>
+                  <img src="./assets/img/12 clean.jpg" class="image" />
+                </div>
+
+                <div class="circle darkorange show">
+                  <p class="inner">För stora och små företag!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="green_circle show"></div>
+        </section>
+
+        <section class="cypress-accordionblock bg lightblue">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center">
+              <div class="accordion cell medium-12 xlarge-10 xxlarge-7">
+                <h2 class="title">Bra att känna till om vår lokalvård:</h2>
+                <div class="group">
+                  <div class="row">
+                    <p class="question">Egen kontaktperson</p>
+                    <div class="answer">
+                      <p>
+                        För att ni snabbt och enkelt ska kunna nå oss när det
+                        behövs får ni alltid en personlig kontaktperson hos oss.
+                        Er kontaktperson hjälper er med alltifrån fakturafrågor
+                        till ändringar i städningen eller i städschemat. Ni kan
+                        också kontakta er kontaktperson om något akut uppstår
+                        som ni behöver hjälp med, eller om ni har synpunkter
+                        eller frågor kring vår städning.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p class="question">Städmaterial ingår alltid</p>
+                    <div class="answer">
+                      <ul>
+                        <li>
+                          Vi tillhandahåller golvmopp, rengöringsdukar,
+                          rengöringsmedel och dammsugare samt övrigt material
+                          som kan komma att behövas.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p class="question">Alltid låga priser</p>
+                    <div class="answer">
+                      <p>
+                        Antalet timmar för lokalvård, eller företagsstäd, beror
+                        på era behov och lokalens omfattning. Vi levererar
+                        alltid bra kvalitetsstädning, vilket för oss innebär att
+                        göra individuella bedömningar för att hitta den mest
+                        kostnadseffektiva och lösningen för dig som kund. Denna
+                        tjänst offereras.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p class="question">Golvvård</p>
+                    <div class="answer">
+                      <p>
+                        Det finns många olika typer av golv och man måste kunna
+                        skilja dem åt för att få ett bra utfört arbete som
+                        passar just för era golv. Vi rengör:
+                      </p>
+                      <ul class="checklist">
+                        <li>textila golv</li>
+                        <li>trägolv</li>
+                        <li>linoleumgolv</li>
+                        <li>plastgolv</li>
+                        <li>stengolv</li>
+                        <li>gummigolv</li>
+                      </ul>
+                      <p>
+                        Förutom städning kan vi behandla golvet så att den
+                        dagliga smutsen inte kan tränga ner i golvets porer.
+                        Kontakta oss så berättar vi mer om hur vår golvvård
+                        fungerar.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p class="question">Förbrukningsmaterial</p>
+                    <div class="answer">
+                      <p>
+                        Vill ni slippa hanteringen av förbrukningsmaterial? Låt
+                        oss ta hand om beställning av tvål, toalettpapper och
+                        annat förbrukningsmaterial. Vi kan också hjälpa till med
+                        inventering av ert nuvarande lager.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cypress-certifiedblock">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center">
+              <div
+                class="logobox cell small-6 large-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                <div class="logo-wrap">
+                  <img src="./assets/img/sextusen_logo.svg" alt="logo" />
+                </div>
+                <p class="title">Stort antal uppdrag</p>
+              </div>
+
+              <div
+                class="logobox cell small-6 large-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
+                <div class="logo-wrap">
+                  <img src="./assets/img/Icon-review.png" alt="logo" />
+                </div>
+                <p class="title">Ledningssystem kvalité och miljö</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="cypress-textblock no-numbers aos-init"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
+          <div class="grid-container narrow">
+            <div class="grid-x grid-margin-x align-center tx-blocks">
+              <div class="cell medium-12 large-10">
+                <h1 style="text-align: center">Lokalvård</h1>
+                <p style="text-align: center">
+                  Vi är specialister på lokalvård. Med omsorg och
+                  professionalitet städar vi och sköter om era lokaler. För oss
+                  är inga lokaler för stora eller för små! Bland våra kunder
+                  finns både större och mindre företag. I städhemsida får ni en
+                  noggrann och flexibel städpartner, med konkurrenskraftiga
+                  priser och lättillgänglig support.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cypress-mediablock standard lightblue">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center flex toright">
+              <div
+                class="text-col cell medium-12 large-10 xlarge-5 xxlarge-5 large-offset-0 xlarge-offset-1 aos-init"
+                data-aos="fade-left"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
+                <div class="textfield">
+                  <h3>Vi håller vad vi lovar. Varje gång.</h3>
+                  <p>
+                    Med städhemsida kan du känna dig trygg i att era lokaler
+                    alltid är välstädade och representativa. En miljö där både
+                    medarbetare och besökare trivs! Vi håller vad vi lovar och
+                    ser alltid till att er städning utförs på ett hållbart och
+                    miljövänligt vis.
+                  </p>
+                  <p>
+                    Lokalvården kan utföras regelbundet en gång i månaden, en
+                    gång i veckan eller en gång om dagen. Vi anpassar städningen
+                    helt efter era behov. Vi kan också kan anpassa frekvensen på
+                    städningen beroende på säsong, om ert behov av städning
+                    varierar över året.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="media-col cell medium-12 large-10 xlarge-5 xxlarge-6 aos-init"
+                data-aos="fade-right"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
+                <img
+                  src="./assets/img/medium-shot-woman-cleaning-indoors (1).jpg"
+                  class="image"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="cypress-textblock numbers aos-init"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center">
+              <div class="abstract cell medium-12 large-10 xlarge-8">
+                <h2 style="text-align: center">
+                  Så här bokar du lokalvård till er verksamhet
+                </h2>
+              </div>
+            </div>
+
+            <div class="grid-x grid-margin-x align-center tx-blocks">
+              <div
+                class="cell medium-12 large-10 xlarge-4 has-background lightgreen three-blocks"
+              >
+                <span class="col-number">1</span>
+                <p style="text-align: center">
+                  Kontakta oss via hemsidan eller ring oss för att boka ett
+                  besök i era lokaler.
+                </p>
+              </div>
+
+              <div
+                class="cell medium-12 large-10 xlarge-4 has-background lightgreen three-blocks"
+              >
+                <span class="col-number">2</span>
+                <p style="text-align: center">
+                  Vi besöker dig för att ta fram en skräddarsydd, kostnadsfri
+                  offert.
+                </p>
+              </div>
+
+              <div
+                class="cell medium-12 large-10 xlarge-4 has-background lightgreen three-blocks"
+              >
+                <span class="col-number">3</span>
+                <p style="text-align: center">
+                  Så snart du godkänt offerten startar vi upp enligt dina
+                  önskemål och verksamhetens behov.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="cypress-textblock no-numbers aos-init"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center align tx-blocks">
+              <div class="cell medium-12 large-10 xlarge-6 four-blocks">
+                <h3>Varför välja Städhemsida?</h3>
+                <p>
+                  När du anlitar städhemsida får er verksamhet en städtjänst som
+                  är både prisvärd, kvalitetssäkrad och helt anpassad efter era
+                  lokaler. Genom en slimmad organisation, smart schemaläggning
+                  och ett starkt kostnadsmedvetande kan vi hålla mycket
+                  konkurrenskraftiga priser på lokalvård. Utan att kompromissa
+                  med kvaliteten. Du får dessutom alltid ett lågt och fast
+                  månadspris, personlig städare och nöjd kund-garanti. Vi har
+                  också en omfattande ansvarsförsäkring om olyckan skulle vara
+                  framme.
+                </p>
+              </div>
+
+              <div
+                class="cell medium-12 large-10 xlarge-6 four-blocks has-background lightblue"
+              >
+                <h4>Har du frågor om våra städtjänster?</h4>
+                <p>
+                  Tveka inte på att kontakta oss om du vill veta mer om vår
+                  lokalvård, eller om du är intresserad av en kostnadsfri
+                  offert. Kontakta oss på städhemsida för en kostnadsfri offert
+                  genom att lämna dina uppgifter här på hemsidan, eller ring
+                  direkt till vår kundservice så hjälper vi till. Varmt
+                  välkommen till oss på Städhemsida!
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cypress-mediablock wave darkblue">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center flex toleft">
+              <div
+                class="text-col cell medium-12 large-10 xlarge-5 xxlarge-5 aos-init"
+                data-aos="fade-right"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
+                <div class="textfield">
+                  <h2>Kan vi hjälpa till?</h2>
+                  <p>
+                    Vill du veta mer om våra städtjänster eller få en
+                    kostnadsfri offert? Tveka inte på att kontakta oss för ett
+                    förutsättningslöst möte!
+                  </p>
+                  <ul class="checklist">
+                    <li><strong>Kvalitetsgaranti</strong></li>
+                    <li><strong>Egen kontaktperson</strong></li>
+                    <li><strong>Lågt, fast pris</strong></li>
+                  </ul>
+                  <form class="cypress-offerform" method="post">
+                    <div class="form-field-wrap">
+                      <div class="form-field">
+                        <input
+                          type="text"
+                          name="Företag_name"
+                          placeholder="Företagsnamn"
+                        />
+                      </div>
+                      <div class="form-field noline">
+                        <input
+                          name="person_name"
+                          type="text"
+                          placeholder="Namn"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-submit">
+                      <button
+                        type="submit"
+                        class="green submit-button btn offer-btn boka_mote"
+                      >
+                        Boka möte
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <div
+                class="media-col cell medium-12 large-10 xlarge-5 xxlarge-6 large-offset-0 xlarge-offset-1 aos-init"
+                data-aos="fade-left"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
+                <img src="./assets/img/5 clean.jpg" class="image" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cypress-officeblock">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center">
+              <div
+                class="abstract cell medium-12 large-10 aos-init"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-delay="300"
+                data-aos-duration="1000"
+              >
+                <h2 style="text-align: center">
+                  Tveka inte på att kontakta oss om du har frågor!
+                </h2>
+                <p style="text-align: center">
+                  Vi har bred erfarenhet från de flesta typer av lokaler och tar
+                  fram en städlösning som fungerar för just er verksamhet.
+                  Kontakta oss för en kostnadsfri offert genom att lämna dina
+                  uppgifter här på hemsidan, eller ring till vår kundservice så
+                  hjälper vi till. Varmt välkommen till oss på Städhemsida!
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="office-wrap grid-x grid-margin-x align-center aos-init"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+            >
+              <div class="office cell medium-12 large-8 xlarge-5 xxlarge-4">
+                <h3 class="city">Kundtjänst Göteborg</h3>
+                <a href="tel:031-23 75 00" class="phone">031-23 75 00</a>
+                <a href="mailto:info@städhemsida.se" class="mail"
+                  >info@städhemsida.se</a
+                >
+              </div>
+              <div class="office cell medium-12 large-8 xlarge-5 xxlarge-4">
+                <h3 class="city">Kundtjänst Stockholm</h3>
+                <a href="tel:010- 000 00 00" class="phone">010- 000 00 00</a>
+                <a href="mailto:info@städhemsida.se" class="mail"
+                  >info@städhemsida.se</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cypress-serviceblock">
+          <span class="bg"></span>
+
+          <div class="grid-container">
+            <div class="intro grid-x grid-margin-x">
+              <div class="cell small-6 large-8">
+                <h2>Våra andra tjänster</h2>
+              </div>
+            </div>
+
+            <div
+              id="page-1"
+              class="services-grid grid-x grid-margin-x"
+              style=""
+            >
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <a href="./kontorsstadning.html" class="link">
+                  <img
+                    width="1000"
+                    height="877"
+                    src="./assets/img/1 clean.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Kontorsstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
+                <a href="./entremattor.html" class="link">
+                  <img
+                    width="1104"
+                    height="844"
+                    src="./assets/img/10 clean.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt="Berendsen part of Elis"
+                    decoding="async"
+                    loading="lazy"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Entrémattor</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="150"
+                data-aos-duration="1000"
+              >
+                <a href="./butiksstadning.html" class="link">
+                  <img
+                    width="1000"
+                    height="877"
+                    src="./assets/img/9 clean.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Butiksstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+              >
+                <a href="./golvvard.html" class="link">
+                  <img
+                    width="1104"
+                    height="844"
+                    src="./assets/img/8 clean.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Golvvård</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <a href="./skolstadning.html" class="link">
+                  <img
+                    width="1104"
+                    height="844"
+                    src="./assets/img/7 clean.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Skola och förskola</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="300"
+                data-aos-duration="1000"
+              >
+                <a href="./stadning-gym-traningslokaler.html" class="link">
+                  <img
+                    width="1000"
+                    height="877"
+                    src="./assets/img/6 clean.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Gym och träningslokaler</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="350"
+                data-aos-duration="1000"
+              >
+                <a href="./flyttstadning.html" class="link">
+                  <img
+                    width="1000"
+                    height="877"
+                    src="./assets/img/5 clean.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Flyttstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+              >
+                <a href="./byggstadning.html" class="link">
+                  <img
+                    width="1000"
+                    height="877"
+                    src="./assets/img/9 clean.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Byggstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="450"
+                data-aos-duration="1000"
+              >
+                <a href="./trappstadning.html" class="link">
+                  <img
+                    width="1000"
+                    height="877"
+                    src="./assets/img/10 clean.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Trappstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="500"
+                data-aos-duration="1000"
+              >
+                <a href="./fonsterputs.html" class="link">
+                  <img
+                    width="1000"
+                    height="877"
+                    src="./assets/img/11 clean.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Fönsterputs</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="550"
+                data-aos-duration="1000"
+              >
+                <a href="./industristadning.html" class="link">
+                  <img
+                    width="1000"
+                    height="877"
+                    src="./assets/img/11 clean.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Industristädning</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="cypress-footer">
+        <div class="grid-container">
+          <div class="grid-x">
+            <div class="footer-inner">
+              <div class="footer-top">
+                <div class="ft-box ft-one">
+                  <a class="logo" href="./index.html"
+                    ><img src="./assets/img/logo-light.png" alt="logo"
+                  /></a>
+                </div>
+              </div>
+
+              <div class="ft-box ft-three">
+                <div class="ft-info">
+                  <div class="ft-info-about">
+                    <h4>städhemsida AB</h4>
+                    <p>
+                      städhemsida är proffs på hemstädning och kontorsstädning.
+                      Vi har huvudkontor i Göteborg samt huvudkontor och
+                      servicekontor i Stockholm, men vi utför vår städhjälp på
+                      många orter i Sverige.
+                    </p>
+
+                    <ul class="ft-info-sm">
+                      <li>
+                        <a href="#">
+                          <span class="icon-facebook-alt">
+                            <?xml version="1.0" ?>
+                            <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                            <svg
+                              height="20px"
+                              style="
+                                fill-rule: evenodd;
+                                clip-rule: evenodd;
+                                stroke-linejoin: round;
+                                stroke-miterlimit: 2;
+                              "
+                              version="1.1"
+                              viewBox="0 0 512 512"
+                              width="20px"
+                              xml:space="preserve"
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlns:serif="http://www.serif.com/"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                            >
+                              <path
+                                d="M374.245,285.825l14.104,-91.961l-88.233,0l0,-59.677c0,-25.159 12.325,-49.682 51.845,-49.682l40.117,0l0,-78.291c0,0 -36.408,-6.214 -71.214,-6.214c-72.67,0 -120.165,44.042 -120.165,123.775l0,70.089l-80.777,0l0,91.961l80.777,0l0,222.31c16.197,2.542 32.798,3.865 49.709,3.865c16.911,0 33.512,-1.323 49.708,-3.865l0,-222.31l74.129,0Z"
+                                style="fill: #ffffff; fill-rule: nonzero"
+                              />
+                            </svg> </span
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <span class="icon-instagram-alt">
+                            <?xml version="1.0" encoding="utf-8"?>
+                            <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            <svg
+                              height="20px"
+                              width="20px"
+                              version="1.1"
+                              id="Layer_1"
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              x="0px"
+                              y="0px"
+                              viewBox="0 0 56.7 56.7"
+                              enable-background="new 0 0 56.7 56.7"
+                              xml:space="preserve"
+                            >
+                              <g>
+                                <path
+                                  style="fill: #ffffff; fill-rule: nonzero"
+                                  d="M28.2,16.7c-7,0-12.8,5.7-12.8,12.8s5.7,12.8,12.8,12.8S41,36.5,41,29.5S35.2,16.7,28.2,16.7z M28.2,37.7
+		c-4.5,0-8.2-3.7-8.2-8.2s3.7-8.2,8.2-8.2s8.2,3.7,8.2,8.2S32.7,37.7,28.2,37.7z"
+                                />
+                                <circle
+                                  style="fill: #ffffff; fill-rule: nonzero"
+                                  cx="41.5"
+                                  cy="16.4"
+                                  r="2.9"
+                                />
+                                <path
+                                  style="fill: #ffffff; fill-rule: nonzero"
+                                  d="M49,8.9c-2.6-2.7-6.3-4.1-10.5-4.1H17.9c-8.7,0-14.5,5.8-14.5,14.5v20.5c0,4.3,1.4,8,4.2,10.7c2.7,2.6,6.3,3.9,10.4,3.9
+		h20.4c4.3,0,7.9-1.4,10.5-3.9c2.7-2.6,4.1-6.3,4.1-10.6V19.3C53,15.1,51.6,11.5,49,8.9z M48.6,39.9c0,3.1-1.1,5.6-2.9,7.3
+		s-4.3,2.6-7.3,2.6H18c-3,0-5.5-0.9-7.3-2.6C8.9,45.4,8,42.9,8,39.8V19.3c0-3,0.9-5.5,2.7-7.3c1.7-1.7,4.3-2.6,7.3-2.6h20.6
+		c3,0,5.5,0.9,7.3,2.7c1.7,1.8,2.7,4.3,2.7,7.2V39.9L48.6,39.9z"
+                                />
+                              </g>
+                            </svg> </span
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><span class="icon-linkedin-alt">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              style="fill: rgba(255, 255, 255, 1)"
+                            >
+                              <circle cx="4.983" cy="5.009" r="2.188"></circle>
+                              <path
+                                d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"
+                              ></path>
+                            </svg> </span
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#"><span class="icon-cision"> C </span></a
+                        ><span class="ci-text">Press</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="ft-support-office">
+                    <h4>Våra kontor</h4>
+                    <div class="ft-info-office-gbg">
+                      <h5>Huvudkontor Göteborg</h5>
+                      <p>
+                        Fasadvägen 44<br />
+                        418 78 Göteborg<br />
+                        010- 000 00 00
+                      </p>
+                    </div>
+                    <div class="ft-info-office-sthlm">
+                      <h5>Huvudkontor Stockholm</h5>
+                      <p>
+                        Tulegatan 4<br />
+                        113 53 Stockholm<br />
+                        010- 000 00 00
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="ft-box ft-four">
+                <div class="ft-suppport">
+                  <div class="ft-support-about">
+                    <h4>Kundtjänst</h4>
+                    <p>
+                      Vi finns tillgängliga för dig om du har frågor eller
+                      funderingar om våra tjänster. Chatta direkt med oss, eller
+                      kontakta oss via telefon, SMS eller e-post. Välkommen!
+                    </p>
+                  </div>
+                  <div class="ft-support-times">
+                    <p>
+                      <b>Kundservice öppettider:</b><br />
+                      Måndag till fredag 8-17
+                    </p>
+                  </div>
+                  <div classa="ft-support-mail">
+                    <p>
+                      <b>Maila oss:</b><br />
+                      <a href="mailto:info@städhemsida.se"
+                        >info@städhemsida.se</a
+                      >
+                    </p>
+                  </div>
+                  <div class="ft-support-phone">
+                    <p>
+                      <b>Ring oss direkt på:</b><br />
+                      <a href="tel:010- 000 00 00">010- 000 00 00</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="ft-bottom-info">
+                <p>
+                  Copyright © 2023 städhemsida AB. Alla rättigheter reserverade.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
